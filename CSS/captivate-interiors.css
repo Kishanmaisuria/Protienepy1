@@ -1,0 +1,239 @@
+/*-- Global Styling --*/
+.global-styles{
+    font-family: Josefin Sans;
+    color: #6b7958;
+    /* background-color: #9dfabe; */
+}
+
+.container-fluid{
+    max-width: 95%;
+}
+
+.logo-text{
+    font-family: josefin sans;
+    font-size: 72px;
+    color: #9dfabe;
+    outline: #45003e;
+    text-shadow: 0 0 2px #45003e, 0 0 2px #45003e, 0 0 2px #45003e, 0 0 2px #45003e;
+    margin-top: 25px;
+    text-align: right;
+    padding-right: 0px;
+    margin-right: -50px;
+    text-align:center; 
+}
+
+.h2, h2{
+    margin-top: 15px;
+    text-decoration: underline solid 1px;
+    text-align:center; 
+    margin-bottom: 25px; 
+    margin-top: 25px;
+}
+
+.staff-heading{
+    font-weight: bold;
+}
+
+
+/*--Spacing Betweens Header tags--*/
+.h-tag-spacing{
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+/*-- Customising Nav-Bar --*/
+
+.navbar {
+    background-color: #45003e;
+    color: #007b5a;
+    width: 100%;
+    
+}
+
+/*-- old method of sticky header 
+position: sticky;
+    top: 0;
+    
+--*/
+.nav-link{
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    color:#9dfabe !important ;
+    font-size: 18px;
+    
+}
+
+.navbar-brand{
+    width: 30px;
+    height: 30px;
+} 
+
+.navbar .navbar-header,
+.navbar-collapse {
+    float:none;
+    display:inline-block;
+    vertical-align: top;
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse  {
+        display: block;
+    }
+}
+
+.show:hover{
+    color: #45003e;
+}
+
+.dropdown-menu.show:mouseover{
+    display: block;
+}
+
+/*-- Deck- For Projects and Shop Pages--*/
+
+.card-deck{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 0px;
+
+}
+
+.card{
+    margin-right: 12.5px;
+    border:#9dfabe solid 1px;
+}
+
+.card-deck-row{
+    margin-right: 0px;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.video-style{
+    margin-right: 12.5px;
+    border:#9dfabe solid 1px;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+/*Emails & Promotions Button*/
+
+.emailPromoBTN{
+    border-color: #45003e 2px;
+    border-radius: 5px;
+    background-color: #9dfabe;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #45003e;
+    height: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font: #45003e;
+}
+
+/* back to top Button */
+
+#TBN{
+    color: #45003e;
+    background-color: #9dfabe;
+    float: right;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+.B2Top-Btn{
+    margin-bottom: 25px;
+    color: #45003e;
+    border-color: #45003e;
+    float: right;
+}
+
+.B2Top-Btn2{
+    margin-bottom: 25px;
+    color: #45003e;
+    border-color: #45003e;
+    margin-left: 30px;
+    float: right;
+}
+
+
+
+
+/*-- Footer Styling --*/
+
+.footer-style{
+    background-color: #45003e;
+    color: #9dfabe;
+    border-top: #6b7958 solid 3px;  
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.footer-icons{
+    font-size: 24px;
+}
+
+a:visited {
+    color: #9dfabe;
+    
+}
+
+.footer-style-aboutus-contactus{
+    align-self: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+/*-- Contact Us Page --*/
+
+.contact-details{
+    text-align:center;
+}
+
+.form-control{
+    border: #007b5a solid 1px;
+}
+
+label{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.submitbutton{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color:#9dfabe;
+    background-color: #45003e;
+    width: 100%;
+}
+
+.btn:hover {
+    color: #45003e;
+    background-color: #9dfabe;
+    
+}
+
+/*-- Contact Us Form:--*/
+
+.form-control{
+    margin-bottom: 20px;
+}
+
+/*-- About Us Page --*/
+#btnHideStaff {
+    width: 25%;
+    margin-left: 38%;
+}

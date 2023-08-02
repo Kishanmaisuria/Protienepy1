@@ -1,0 +1,289 @@
+<!DOCTYPE html> 
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.google.com/" rel="'stylesheet">
+        <script src="https://kit.fontawesome.com/76e788a391.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="CSS/captivate-interiors.css">
+
+        <title>First-Class-Interior</title>
+    
+    </head>
+
+    <body class="global-styles">
+
+        <div Class="container-fluid">     
+
+            <header style="margin-top:25px;">
+              
+                <div class="row">
+                    <div class="col-3"><img src="images/originals/shapes-only-logo.png" height="150px" style="margin-bottom: 25px; float: left;"></div>
+
+                    <div class="col-4" style="text-align:center; padding-top: 25px;"></div>
+
+                    <div class="col-5 logo-text"><p>First-Class-Interior</p></div>
+
+                </div>                
+              
+            </header>
+
+            
+                <!-- Nav-Bar -->
+           
+                <nav class="navbar navbar-expand-lg nav-bar-background sticky-top" style="text-align: right;">
+                        <a class="navbar-brand" href="images/originals/logo-Ci-24px-24px.png"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><img src="images/originals/logo-Ci-24px-24px.png"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        
+                            <ul class="navbar-nav navbar-nav mx-auto">
+                                <li class="nav-item active" title="Go to Home Page">
+                                <a class="nav-link" href="index.html" target="_blank">Home <span class="sr-only">Home</span></a>
+                                </li>
+                                 <li class="nav-item" title="Go to Shop">
+                                <a class="nav-link" href="shop-Ci2.html" target="_blank">Shop</a>
+                                 </li>
+                                <li class="nav-item" title="Go to Comtact Us">
+                                    <a class="nav-link" href="contact-us-Ci2.html" target="_blank">Contact Us</a>
+                                </li>
+                                <li title="Go to About Us">
+                                    <a class="nav-link" href="about-us-Ci2.html" target="_blank">About Us</a>
+                                </li>
+                            
+                            </ul>
+                        
+                        </div>
+
+                </nav>
+                
+                <!--Contact Us Section-->
+            
+                <div class="row">
+                    <div class="col-2"></div>
+
+                    <div class=" col-8 contact-details">
+                        <h2 id="headerChange" onclick="headerChange()" style="text-align:center;">Contact Us</h2>
+                        <h4>Complete the form below and we will be in touch in the next 24 hours:</h4>
+                    
+                    </div>
+
+                    <div class="col-2"></div>
+                </div><!-- End row: contact details -->
+
+                <!--Row: Contact Us Form-->
+
+                <div class="row">
+                    
+                    <div class="col-1"></div> <!--For aligning form on page-->
+
+                    <div class="col-10">
+
+                        <form>
+                            
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="What is your Name?">
+                            </div>
+                            
+                            <div class="form-group">
+                            
+                                <label for="exampleFormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">What interior design do you want to query about? (please select from the drop-down menu.)</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Restaurant</option>
+                                    <option>Offices</option>
+                                    <option>Homes</option>
+                                    <option>Hotels</option>
+                                    <!--<option>5</option> -->
+                                </select>
+                            </div>
+
+                            <!--Sprint 2 Complete: list of items added which a customer may need support on-->
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Which Product do you want to query about? (please select from the drop-down menu.)</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <!-- <option></option> -->
+                                    <option>Mirrors</option>
+                                    <option>tables</option>
+                                    <option>Wallapaper</option>
+                                    <option>lighting</option>
+                                    <option>Matreses</option>
+                                    <!--<option>5</option> -->
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">How can we help you?</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Tell us more about your project:"></textarea>
+                            </div>
+                            
+                            <!--Sprint 2 Complete: Button added for opting in for promotions and specials emails-->
+
+                            <div class="col-12">
+                                <button type="button" class="emailPromoBTN" onclick="functionPro()">Promotions and specials emails</button>
+                                <p id="EP"></p>
+                                <button type="submit" class="btn btn-primary submitbutton"><b>Submit</b></button>
+                            </div>
+                                            
+                        </form>
+
+                    </div>
+
+                    <div class="col-1"></div> <!--For aligning form on page-->
+                
+                </div><!--Close div class row-->
+
+              
+                <div class="row">
+                            <div class="col-1"></div>
+                                <div class="col-10" style="text-align:center" id="changeAlignment" onmouseover="contactInfo()">
+                                    <h5 class="h-tag-spacing" id="contactInfo" ><b><u>Visit us:</b></u></h5>
+                                    <h5 class="h-tag-spacing">46 Designer Rd, West Auckalnd</h5>
+                                    <h5 class="h-tag-spacing"><b><u>Call us</u></b></h5>
+                                    <h5 class="h-tag-spacing">Monday - Friday 0830 - 1630</h5>  
+                                    <h5 class="h-tag-spacing"><i class="fa fa-phone" aria-hidden="true">  0800 First-Class-Interior-Agile ( 0800 228 669 848 )</i></h5>
+                                    <h5 class="h-tag-spacing"><b><u>Fax:</u></b></h5>
+                                    <h5 class="h-tag-spacing"> 09-836-9429</i></h5>
+                                    <h5 class="h-tag-spacing"><b><u>Email Us:</u></b></h5>
+                                    <h5 class="h-tag-spacing"> info@First-Class-Interior-Agile.co.nz</h5>
+
+                                <!--Sprint 2 Complete: Office hours for the team added-->
+                                    <h5 class="h-tag-spacing"><b><u>Office Hours:</u></b></h5>
+                                    <h5 class="h-tag-spacing">Monday: 0900-1600</h5>
+                                    <h5 class="h-tag-spacing">Tuesday: 1000-1400</h5> 
+                                    <h5 class="h-tag-spacing">Wednesday: 0830-1830</h5>
+                                    <h5 class="h-tag-spacing">Thursday: 1000-1400</h5>
+                                    <h5 class="h-tag-spacing">Friday: 100-1600</h5>
+                                    <h5 class="h-tag-spacing">Saturday & Sunday: Closed</h5>
+                                   
+                                </div>
+                            
+                           <!--Sprint 2 Complete: Map of where shop is located added -->
+
+                                <div class="col-1">
+                                   </div>
+                                
+                                   <div class="row">
+                                    <div class="col-3">
+                                        <div class="col-6">
+                                            
+                                    <h2 style="text-align: left"><u>Where we are located</u></h2>
+                                    <img class="LocationMap" src="images/map2.png" size: height= "300px" width="600px"> 
+
+
+                                        </div>
+                                        <div class="col-3"></div>
+                                    </div>
+
+                                   </div>
+                             
+                                <div class="col-4"></div>
+
+
+
+
+                             <!--Back to Top Button -->
+            <div class="row; container-fluid" style="margin-right:0px;padding-right: 0px;">
+                
+                <div class="col-1"></div>
+                <div class="col-10; B2Top-Btn">
+                  <button onclick="TopFunction()" id="TBN">Back to Top</button> 
+                </div>
+                    
+            </div> <!--Back to Top Button ENDS-->
+                                        
+                </div><!--Close div Row-->
+        
+                <!--Contact us section END-->
+                
+        </div><!--Close Div Classs Container Fluid-->
+
+        
+
+          <!-- Footer --> 
+            <footer class="footer-style footer-style-aboutus-contactus">
+                <div class="row">
+
+                        <div class="col-4">
+                            <p>Ph: 0800 First-Class-Interior</p>
+                            <p>46 Designer Rd</p>
+                            <p>West Auckalnd</p>
+                            <p>info@First-Class-Interior.co.nz</p>
+                        </div>
+                        
+                        <div class="col-4 footer-icons" style="text-align: center;">
+                                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook" title="Go to FaceBook Login"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank" title="Go to Instagram Login"><i class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.linkedin.com/" target="_blank" title="Go to LinkedIn Login"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://twitter.com/i/flow/login" target="_blank" title="Go to Twitter Login"><i class="fa-brands fa-square-twitter"></i></a>
+                            
+                                <p id="contactUs" class="footer-paragraph-style"><b>@First-Class-Interior</b></p>  
+                                <p style="font-size: 18px;">Disclaimer: all products are subject to availability. Prices and Delivery times may vary for that advertised.</p>
+
+                        </div>
+
+                            <div class="col-4">
+                                <ul style="list-style: none; text-align: right;">
+                                    <!-- <button onclick="TopFunction()" id="TBN">top</button> -->
+                                    <li><a href="index.html" title="Go to Home">Home</a></li>
+                                    <li><a href="shop-Ci2.html" title="Go to Shop">Shop</a></li>
+                                    <li><a href="#projects" title="Go to Projects">Projects</a></li>
+                                    <li><a href="contact-us-Ci2.html" title="Go to Contact Us">Contact Us</a></li>
+                                    <li><a href="about-us-Ci2.html" title="Go to About Us">About Us</a></li>
+
+                                </ul>
+
+                            </div>
+
+                </div><!--Close Div: Row for footer-->
+                
+            </footer>
+
+                <script>
+                    function headerChange(onclick)
+                    {
+                        document.getElementById("headerChange").style.color="#45003e";
+                        document.getElementById("headerChange").style.fontSize="20px";
+
+                    }
+
+                    /*--Function to Change alignment of Contact details on Contact Us Page --*/
+                    function contactInfo(onmouseover)
+                    {
+                        document.getElementById("changeAlignment").style.textAlign="right";
+                    }
+
+                    function functionPro(onclick)
+                    {
+                        let text;
+                        let email = prompt("Please enter email:");
+                        if (email==null||email==""){
+                            text="No Email.";
+                        } else{
+                            text="Sent to:"+email;
+                        }
+                        document.getElementById("EP").innerHTML = text;
+                    }
+                    function TopFunction(){
+                  document.documentElement.scrollTop = 0;
+                  document.body.scrollTop = 0;
+                }
+
+                </script>
+
+
+
+        
+    </body>
+
+</html>

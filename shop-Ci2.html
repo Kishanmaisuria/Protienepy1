@@ -1,0 +1,965 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.google.com/" rel="'stylesheet">
+        <script src="https://kit.fontawesome.com/76e788a391.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="CSS/captivate-interiors.css">
+
+        <title>First-Class-Interior</title>
+       
+    </head>
+
+    <body class="global-styles container-fluid">
+        
+        <header style="margin-top:25px;">
+              
+            <div class="row">
+                <div class="col-3"><img src="images/originals/shapes-only-logo.png" height="150px" style="margin-bottom: 25px; float: left;"></div>
+
+                <div class="col-4" style="text-align:center; padding-top: 25px;"></div>
+
+                <div class="col-5 logo-text"><p>First-Class-Interior</p></div>
+
+            </div>                
+          
+        </header>
+
+
+        <!-- Nav-Bar -->
+
+        <nav class="navbar navbar-expand-lg nav-bar-background sticky-top" style="text-align: right;">
+            <a class="navbar-brand" href="images/originals/logo-Ci-24px-24px.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><img src="images/originals/logo-Ci-24px-24px.png"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              
+                <ul class="navbar-nav navbar-nav mx-auto">
+                  <li class="nav-item active" title="Go to Home Page">
+                    <a class="nav-link" href="index.html" target="_blank">Home <span class="sr-only">Home</span></a>
+                  </li>
+                  <li class="nav-item dropdown" title="Go to Shop">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Shop <i class="fa fa-shopping-bag" aria-hidden="true"></i> 
+                      </a>
+                      <div class="dropdown-menu show" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Mirrors</a>
+                        <a class="dropdown-item" href="#">Tables</a>
+                        <a class="dropdown-item" href="#">Wall Papers</a>
+                        <a class="dropdown-item" href="#">Lighting</a>
+                        <a class="dropdown-item" href="#">Matresses</a>
+                      </div>
+                    </li>
+
+                  <li class="nav-item" title="Go to Contact Us">
+                    <a class="nav-link" href="contact-us-Ci2.html" target="_blank">Contact Us</a>
+                  </li>
+                  <li title="Go to About Us">
+                      <a class="nav-link" href="about-us-Ci2.html" target="_blank">About Us</a>
+                  </li>
+                  
+                </ul>
+            
+            </div>
+        </nav>
+          
+        
+                <div class="row"> <!--Div for Header: Shop-->
+                        <div class="col-2"></div>
+                        <div class="col-8">
+                            <h2 style="text-align:center; margin-bottom: 25px; margin-top: 25px;">Shop</h2>
+                        </div>
+                        <div class="col-2"></div>
+                </div>
+
+                <!-- Row: TITLE: Mirrors start-->
+                    <div class="row">
+                
+                            <div class="col-2"></div>
+                            <div class="col-8" style="text-align:center;"><h2>Mirrors</h2><p style="text-align:center;">We draw on a wide range of products to enhance nature in your spaces. Choose from the following product and add to your <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></p></div>
+                            <div class="col-2"></div>
+                    </div>
+                <!--END Row: Mirrors Header-->
+
+                <!--Sprint 1 Complete: imagechange function added to have array of photos under each product.-->
+                        
+                <!--Card Deck: Mirrors-->
+                
+                    <div class=""row">
+                            
+                        <div class="card-deck"> 
+
+                            <div class="card col-3"> <!--Apple Mirror-->
+                                <img class="card-img-top" src="images/apple-mirror-350px-350px.jpg" alt="Card image cap">
+                                <div class="Row">
+                                    <div class="column">
+                                        <img src="images/apple-mirror-350px-350px.jpg" style="width: 50px; float: left;"  onclick="imgchange()";>
+                                    </div>
+                                    <div class="column">
+                                        <img src="images/apple-mirror-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                    </div>
+                                    <div class="column">
+                                        <img src="images/apple-mirror-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                    </div>
+                                    <div class="column">
+                                        <img src="images/apple-mirror-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                <h5 class="card-title">Apple Mirror - $270</h5>
+                                <p class="card-text">
+                                    <ul>
+                                    <li>Material: bamboo, rattan, glass</li>
+                                    <li>Dimensions: H37xW42cm</li>
+                                    <li>Apple design</li>
+                                    <li>Woven frame</li>
+                                    <li>Wipe clean with a damp cloth</li>
+                                
+                                </ul>
+                                
+                                Add a fruity finishing touch to your little one’s space with this mirror from ferm LIVING. Featuring a woven frame made from bamboo and rattan, this charming apple mirror is a wonderful addition to any playroom or nursery.
+                                </p>
+
+                                <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                
+                                </div>
+                        
+                            </div><!-- END Apple Mirror-->
+            
+                            <!-- Pear Mirror-->
+                            <div class="card col-3">
+                                
+                                <img class="card-img-top" src="images/pear-mirror-350px-350px.jpg" alt="Card image cap">
+                                <div class="Row">
+                                    <div class="column">
+                                        <img src="images/pear-mirror-350px-350px.jpg" style="width: 50px; float: left;"  onclick="imgchange()";>
+                                    </div>
+                                    <div class="column">
+                                        <img src="images/pear-mirror-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                    </div>
+                                    <div class="column">
+                                        <img src="images/pear-mirror-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                    </div>
+                                    <div class="column">
+                                        <img src="images/pear-mirror-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                <h5 class="card-title">Pear Mirror - $270</h5>
+                                <p class="card-text">
+                                    <ul>
+                                            <li>Material: bamboo, rattan, glass</li>
+                                            <li>Dimensions: H37xW42cm</li>
+                                            <li>Apple design</li>
+                                            <li>Woven frame</li>
+                                            <li>Wipe clean with a damp cloth</li>
+                                    
+                                        </ul>
+                                    
+                                    Add a fruity finishing touch to your little one’s space with this mirror from ferm LIVING. Featuring a woven frame made from bamboo and rattan, this charming apple mirror is a wonderful addition to any playroom or nursery.
+                                    </p>
+
+                                <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                
+                                </div>
+                            </div><!--END Pear Mirror-->
+            
+                            <!--Oak Mirror-->
+                            <div class="card col-3">
+                                    <img class="card-img-top" src="images/flower-mirror-350px-350px.jpg" alt="Card image cap">
+                                    <div class="Row">
+                                        <div class="column">
+                                            <img src="images/flower-mirror-350px-350px.jpg" style="width: 50px; float: left;"  onclick="imgchange()";>
+                                        </div>
+                                        <div class="column">
+                                            <img src="images/flower-mirror-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                        </div>
+                                        <div class="column">
+                                            <img src="images/flower-mirror-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                        </div>
+                                        <div class="column">
+                                            <img src="images/flower-mirror-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                    <h5 class="card-title">Flower Mirror - $270</h5>
+                                    <p class="card-text">
+                                        <ul>
+                                            <li>Material: bamboo, rattan, glass</li>
+                                            <li>Dimensions: H55xW55cm</li>
+                                            <li>Flower design</li>
+                                            <li>Solid frame</li>
+                                            <li>Wipe clean with a damp cloth</li>
+                                        </ul>
+                                    
+                                    The Living Space Rattan Framed Round Mirror is a wonderful way to add a charming bohemian highlight to your home décor. Featuring flowing curves and lines, this round mirror utilises a rattan frame for a warm and organic touch.</p>
+
+                                    <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </div>
+                            </div><!--End Flower Mirror-->
+
+                            <!--Oak Mirror-->
+                            <div class="card col-3">
+                                <img class="card-img-top" src="images/oak-mirror--350px-350px.jpg" alt="Card image cap">
+                                <div class="Row">
+                                    <div class="column">
+                                        <img src="images/oak-mirror--350px-350px.jpg" style="width: 50px; float: left;"  onclick="imgchange()";>
+                                    </div>
+                                    <div class="column">
+                                        <img src="images/oak-mirror--350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                    </div>
+                                    <div class="column">
+                                        <img src="images/oak-mirror--350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                    </div>
+                                    <div class="column">
+                                        <img src="images/oak-mirror--350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                <h5 class="card-title">Oak Mirror - $270</h5>
+                                <p class="card-text">
+                                    <ul>
+                                    <li>Material:Oak Vaneer</li>
+                                    <li>Dimensions: H88xW49cmxD6cm</li>
+                                    <li>Oak design</li>
+                                    <li>Solid, Grooved frame</li>
+                                    <li>Wipe clean with a damp cloth</li>
+                                
+                                </ul>
+                                
+                                Winner of the fair’s Born Classic award—launched in collaboration with Swedish auction house Bukowskis to encourage long-lasting design—the elegant limited-edition Mirror by Front for Swedese repurposes laminated beech, oak.
+                                </p>
+
+                                <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                            
+
+                            </div><!--End Oak Mirror-->
+                
+                        </div><!-- END Card DECK: Mirrors-->
+
+                    </div> <!-- End Row Mirrors-->
+            
+                <!--Row: Table Starts-->
+                 
+                <div class="row"><!--Row: Table Header-->
+                
+                    <div class="col-2"></div>
+                    <div class="col-8" style="text-align:center;"><h2>Tables</h2><p style="text-align:center;">We draw on a wide range of products to enhance nature in your spaces. Choose from the following product and add to your <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></p></div>
+                    <div class="col-2"></div>
+               </div><!--END Row: Tables Header-->
+
+               <!--Card Deck: Tables-->
+                
+            <div class="row">
+                            
+                <div class="card-deck"> 
+
+                    <div class="card col-3"> <!--Mirror-->
+                        <img class="card-img-top" src="images/dining-tables-oak-350px-350px.webp" alt="Card image cap">
+                        <div class="Row">
+                            <div class="column">
+                                <img src="images/dining-tables-oak-350px-350px.webp" style="width: 50px; float: left;"  onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/dining-tables-oak-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/dining-tables-oak-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/dining-tables-oak-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                        <h5 class="card-title"> Oak Rectangular Table- $788.90</h5>
+                        <p class="card-text">
+                            <ul>
+                            <li>Material: American Oak</li>
+                            <li>Dimensions: H75xW90xL180CM</li>
+                            <li>NZ Design</li>
+                            <li>Spolid frame</li>
+                            <li>Wipe clean with a damp cloth</li>
+                        
+                        </ul>
+                        
+                        We use the best quality American Oak from sustainable forests in the USA.A versatile, solid dining table. 100% solid natural Oak. Oak wood is naturally weather-resistant and is one of the few kinds of wood we recommend to have. This table has an unltra smooth finish.
+                        </p>
+
+                        <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                        
+                        </div>
+                
+                    </div><!-- END Apple Mirror-->
+    
+                    <!-- Teak  Round Table-->
+                    <div class="card col-3">
+                        
+                        <img class="card-img-top" src="images/teak-table-350px-350px.jpg" alt="Card image cap">
+                        <div class="Row">
+                            <div class="column">
+                                <img src="images/teak-table-350px-350px.jpg" style="width: 50px; float: left;"  onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/teak-table-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/teak-table-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/teak-table-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                        <h5 class="card-title"> Teak Round Table - $1250.00</h5>
+                        <p class="card-text">
+                            <ul>
+                                    <li>Material: Teak</li>
+                                    <li>Dimensions: H30xW71 inches</li>
+                                    <li>NZ Designdesign</li>
+                                    <li>Solid frame</li>
+                                    <li>Hole for Umbrella</li>
+                            
+                                </ul>
+                            
+                                This 71-inch Round Dining table is crafted from Grade A legally sourced Teak wood of the highest quality and craftsmanship. Each piece of wood is hand sanded and meticulously measured for a smooth feel and precise fit. Teak wood is naturally weather-resistant and is one of the few kinds.
+                            </p>
+
+                        <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                        
+                        </div>
+                    </div><!--END Pear Mirror-->
+    
+                    <!--Hexagon Table-->
+                        <div class="card col-3">
+                            <img class="card-img-top" src="images/hexagon-table-350px-350px.png" alt="Card image cap">
+                            <div class="Row">
+                                <div class="column">
+                                    <img src="images/hexagon-table-350px-350px.png" style="width: 50px; float: left;"  onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/hexagon-table-350px-350px.png" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/hexagon-table-350px-350px.png" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/hexagon-table-350px-350px.png" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Hexagon Table - $2400.00</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Material: Solid Knotty Alder</li>
+                                    <li>Dimensions: H30xW30 inches</li>
+                                    <li>Timeless design </li>
+                                    <li>Solid frame</li>
+                                    <li>Wipe clean with a damp cloth</li>
+                                </ul>
+                            
+                            Texagon top is sure to make a bold statement in your kitchen or game room. The Hexagon Industrial Steel Pedestal Table measure approx 60". Each side of the hexagon is approx. 30" W. This size is comfortable for six people. This table includes filled table top knots for a smooth surface,</p>
+
+                            <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                        </div>
+                        
+                    </div><!--End Hexagon Table->
+
+                    <!- Square Table -->
+                    <div class="card col-3">
+                        <img class="card-img-top" src="images/square-table-350px-350px.png" alt="Card image cap"><div class="card-body">
+                            <div class="Row">
+                                <div class="column">
+                                    <img src="images/square-table-350px-350px.png" style="width: 50px; float: left;"  onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/square-table-350px-350px.png" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/square-table-350px-350px.png" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/square-table-350px-350px.png" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                            </div>
+                        <h5 class="card-title">Square Table - $1600.00</h5>
+                        <p class="card-text">
+                            <ul>
+                                <li>Material:Solid Oak</li>
+                                <li>Dimensions: H100xW76xL100</li>
+                                <li>NZ design</li>
+                                <li>Sustainable Product</li>
+                                <li>Wipe clean with a damp cloth</li>
+                        
+                            </ul>
+                        
+                            Knots, slight cracking, blemishes, small dents and minor colour variations are inherent characteristics of wood products. These irregularities do not impact the structural integrity of our products, and are not considered defects.A timeless aesthetic that sits comfortably within any interior.
+                        </p>
+
+                        <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                    
+                    </div><!--End Square Tables-->
+        
+                </div><!-- END Card DECK: Tables-->
+
+            </div> <!-- End Row Tables-->
+
+            <!-- Wallpapers-->
+
+            <div class="row">
+                
+                <div class="col-2"></div>
+                <div class="col-8" style="text-align:center;"><h2>Wall Papers</h2><p style="text-align:center;">We draw on a wide range of products to enhance nature in your spaces. Choose from the following product and add to your <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></p></div>
+                <div class="col-2"></div>
+           </div><!--END Row: Wall Papers Header-->
+
+            <div class="row"><!-- Row Start: Wallpapers-->
+                
+                <div class="card-deck"> 
+
+                    <div class="card col-3"> <!--Mirror-->
+                        <img class="card-img-top" src="images/space-wallpaper-350px-350px.webp" alt="Card image cap">
+                        <div class="Row">
+                            <div class="column">
+                                <img src="images/space-wallpaper-350px-350px.webp" style="width: 50px; float: left;"  onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/space-wallpaper-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/space-wallpaper-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/space-wallpaper-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                        <h5 class="card-title"> Space Wallpaper - $86.00 per M2</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Soft print definition with a matte finish</li>
+                                    <li>Overlap and double cut installation method</li>
+                                    <li>Vinyl top layer makes it wipe clean</li>
+                                    <li>Extremely durable</li>
+                                    <li>Non-toxic inks and toners</li>
+                                </ul>
+                            
+                                If you are a keen space enthusiast or just looking for a mural that is completely unique look no further than at our Bright Galaxy Wallpaper Mural. This amazing galaxy effect wallpaper will certainly give you that stunning feature wall you desire with its brilliant contrast in colours and simply mesmerising subject. Style this design in any bedroom for adults or kids and enjoy the relaxed, cosmic vibe it creates.
+                            </p>
+
+                        <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                        
+                        </div>
+                
+                    </div><!-- Space WallPaper-->
+    
+                    <!-- Sunflower Wall Paper-->
+                    <div class="card col-3">
+                        
+                        <img class="card-img-top" src="images/sunflower-wallpaper-350px-350px.webp" alt="Card image cap">
+                        <div class="Row">
+                            <div class="column">
+                                <img src="images/sunflower-wallpaper-350px-350px.webp" style="width: 50px; float: left;"  onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/sunflower-wallpaper-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/sunflower-wallpaper-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/sunflower-wallpaper-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                        <h5 class="card-title">Sunflower Wallpaper - $86.00 per M2</h5>
+                        <p class="card-text">
+                            <ul>
+                                <li>Soft print definition with a matte finish</li>
+                                <li>Overlap and double cut installation method</li>
+                                <li>Vinyl top layer makes it wipe clean</li>
+                                <li>Extremely durable</li>
+                                <li>Non-toxic inks and toners</li>
+                            </ul>
+                            
+                            Introduce a subtle vintage aesthetic to your theme with this bespoke Yellow Sunflower Photographic Vintage floral Wallpaper Mural. Depicting bunched sunflowers under a cool vintage filter, this design is perfect for achieving a unique retro feel in any living room, bedroom or any space that needs more depth and character. The warm mix of yellow tones including mustard and ochre is a great way to introduce stylish tone.
+                            </p>
+
+                        <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                        
+                        </div>
+                    </div><!--END Sunflower Wallpaper-->
+    
+                    <!--Ocean Wallpaper-->
+                        <div class="card col-3">
+                            <img class="card-img-top" src="images/ocean-wallpaper-350px-350px.jpg" alt="Card image cap">
+                            <div class="Row">
+                                <div class="column">
+                                    <img src="images/ocean-wallpaper-350px-350px.jpg" style="width: 50px; float: left;"  onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/ocean-wallpaper-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/ocean-wallpaper-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/ocean-wallpaper-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Ocean Wallpaper - $86.00 per M2</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Soft print definition with a matte finish</li>
+                                    <li>Overlap and double cut installation method</li>
+                                    <li>Vinyl top layer makes it wipe clean</li>
+                                    <li>Extremely durable</li>
+                                    <li>Non-toxic inks and toners</li>
+                                </ul>
+                            
+                                Add a sense of depth, mystery and calm to your bathroom or child’s bedroom with our visually stunning deep Ocean Crevice Wallpaper Mural. Dive in to new realms with your interior design with this statement feature piece – the deep blue colour and beautiful effect of light shining underwater is anything but ordinary and will create a calming, unique space in your home. Pair with modern, neutral decor.</p>
+
+                            <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                        </div>
+                        
+                    </div><!--Ocean Wallpaper->
+
+                    <!- Forrest Wall Paper -->
+                    <div class="card col-3">
+                        <img class="card-img-top" src="images/forrest-wallpaper-350px-350px.jpg" alt="Card image cap"><div class="card-body">
+                            <div class="Row">
+                                <div class="column">
+                                    <img src="images/forrest-wallpaper-350px-350px.jpg" style="width: 50px; float: left;"  onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/forrest-wallpaper-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/forrest-wallpaper-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/forrest-wallpaper-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                            </div>
+                        <h5 class="card-title">Forrest Wallapaper - $86.00 per M2</h5>
+                        <p class="card-text">
+                            <ul>
+                                <li>Soft print definition with a matte finish</li>
+                                <li>Overlap and double cut installation method</li>
+                                <li>Vinyl top layer makes it wipe clean</li>
+                                <li>Extremely durable</li>
+                                <li>Non-toxic inks and toners</li>
+                            </ul>
+                        
+                            Our Breaking Light Green Forest Wallpaper Mural brings you all the intense colour and beauty of a woodland scene at daybreak. Stunning green tones contrast with that of the bright, white light of the morning sun to give you a feature wall like no other. If you love natural spaces full of botanicals, this jungle design will compliment your theme perfectly, a great choice for bedroom and bathroom decor.
+                        </p>
+
+                        <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                    
+                    </div><!--End Forrest Wallpaper-->
+        
+                </div><!-- END Card DECK: Wallpaper-->
+
+            </div><!--End Row : Wallpapers-->
+
+            <!--Lighting -->
+
+                <div class="row"><!--Row: Lighting Header-->
+                
+                    <div class="col-2"></div>
+                    <div class="col-8" style="text-align:center;"><h2>Lighting</h2><p style="text-align:center;">We draw on a wide range of products to enhance nature in your spaces. Choose from the following product and add to your <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></p></div>
+                    <div class="col-2"></div>
+
+                </div><!--END Row: Lighting Header-->
+
+            <div class="row">
+
+                <div class="card-deck"> 
+
+                    <div class="card col-3"> <!--Mirror-->
+                        <img class="card-img-top" src="images/bird-garden-350px-350px.jpg" alt="Card image cap">
+                        <div class="Row">
+                            <div class="column">
+                                <img src="images/bird-garden-350px-350px.jpg" style="width: 50px; float: left;"  onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/bird-garden-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/bird-garden-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/bird-garden-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                        <h5 class="card-title"> Retro Bird Garden Chandelier- $356.00</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Bulbs not included </li>
+                                    <li>Power Source: AC</li>
+                                    <li>Installation Type: Chain Pendant</li>
+                                    <li>LED Plant bird Pendent Light</li>
+                                    <li>Size: W104.5cm x H40cm</li>
+                                </ul>
+                            
+                                What? What?! WHAT?! You may disguise your features but you can never disguise your intent. There are fixed points throughout time where things must stay exactly the way they are. This is not one of them. This is an opportunity! Whatever happens here will create its own timeline, its own reality, a temporal tipping point. 
+                            </p>
+
+                            <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                        
+                        </div>
+                
+                    </div><!-- Lights 1 End-->
+    
+                    <!-- Lights 2-->
+                    <div class="card col-3">
+                        <img class="card-img-top" src="images/branching-lights-350px-350px.jpg" alt="Card image cap">
+                        <div class="Row">
+                            <div class="column">
+                                <img src="images/branching-lights-350px-350px.jpg" style="width: 50px; float: left;"  onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/branching-lights-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/branching-lights-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/branching-lights-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Metal Wire Branching Ceiling Lights - $147.00</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Lampshade Color: Black</li>
+                                    <li>Switch Type: Knob switch</li>
+                                    <li>Bulbs not included</li>
+                                    <li>Extremely durable</li>
+                                    <li>8 Heads: 67cm Long by 120cm Wide</li>
+                                </ul>
+                            
+                            The future revolves around you, here, now, so do good! No, not the hugging. I’m against the hugging. Sorry, must dash! Reverse the polarity of… I hate computers and refuse to be bullied by them.The future revoloves around lights and lighting!
+                            </p>
+
+                            <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                        </div>
+                    </div><!--END Lights 2 -->
+    
+                    <!--lights 3-->
+                    <div class="card col-3">
+                            <img class="card-img-top" src="images/circle-ring-chandelier-350px-350px.webp" alt="Card image cap"> <div class="card-body">
+                                <div class="Row">
+                                    <div class="column">
+                                        <img src="images/circle-ring-chandelier-350px-350px.webp" style="width: 50px; float: left;"  onclick="imgchange()";>
+                                    </div>
+                                    <div class="column">
+                                        <img src="images/circle-ring-chandelier-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                                    </div>
+                                    <div class="column">
+                                        <img src="images/circle-ring-chandelier-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                                    </div>
+                                    <div class="column">
+                                        <img src="images/circle-ring-chandelier-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                                    </div>
+                                </div>
+                            <h5 class="card-title">Modern Hanging Circle Chandelier - $1082.00</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Lighting Area: >30square meters</li>
+                                    <li>Switch Type: Remote Control</li>
+                                    <li>Is Dimmable: Yes</li>
+                                    <li>Finish: Anodic oxidation</li>
+                                    <li>Light bulbs included</li>
+                                </ul>
+                               Be a pal and tell me, Am I a good man? Oh, my giddy aunt! I don’t suppose we’ll ever know if we actually succeeded. But at worst, we failed doing the right thing, as opposed to succeeding in doing the wrong.Allow me to congratulate you, sir. You have the most totally closed mind.
+                            </p>
+
+                            <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                        </div>
+                        
+                    </div><!--lights 3 END->
+
+                    <!- Lights 4-->
+                    <div class="card col-3">
+                        <img class="card-img-top" src="images/snowflake-350px-350px.jpg" alt="Card image cap"><div class="card-body">
+                            <div class="Row">
+                                <div class="column">
+                                    <img src="images/snowflake-350px-350px.jpg" style="width: 50px; float: left;"  onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/snowflake-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/snowflake-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/snowflake-350px-350px.jpg" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                            </div>
+                            <h5 class="card-title"> Snowflake Crystal Chandelier- $774.58</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Lighting Area: >30square meters</li>
+                                    <li>Switch Type: Remote Control</li>
+                                    <li>Is Dimmable: Yes</li>
+                                    <li>Finish: Anodic oxidation</li>
+                                    <li>Light bulbs included</li>
+                                </ul>
+                            
+                                A straight line may be the shortest distance between two points, but it is by no means the most interesting. Your hips are fine, you’re built like a man! You ain’t seen nothing yet! I never know why. I only know who. Great men are forged in fire. It is the privilege of lesser men to light the flame. I just have one question… 
+                            </p>
+
+                            <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                    
+                        </div><!--End lights 4-->
+
+                    </div><!--card body-end-->
+        
+                </div><!-- END Card DECK: lights-->
+
+            </div><!--End Row :lights-->
+
+            <!--Matresses Start-->
+
+            <div class="row"><!--Row: Matresses Header-->
+                <div class="col-2"></div>
+                <div class="col-8" style="text-align:center;"><h2>Matresses</h2><p style="text-align:center;">We draw on a wide range of products to enhance nature in your spaces. Choose from the following product and add to your <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></p></div>
+                <div class="col-2"></div>
+           </div><!--END Row: Matresses Header-->
+
+           <!--Matresses Start-->
+            <div class="row">
+
+                <div class="card-deck"> 
+
+                    <div class="card col-3"> <!--Mirror-->
+                        <img class="card-img-top" src="images/SuperNaturalMattress-350px-350px.webp" alt="Card image cap"><div class="card-body">
+                            <div class="Row">
+                                <div class="column">
+                                    <img src="images/SuperNaturalMattress-350px-350px.webp" style="width: 50px; float: left;"  onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/SuperNaturalMattress-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/SuperNaturalMattress-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/SuperNaturalMattress-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Super Natural Mattress Soft - From $1400.00 </h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Soft knit breathable sleep surface </li>
+                                        <li>NZ Wool: Comfort and breathability </li>
+                                        <li>Natural Latex: Superior support & advanced temperature regulation </li>
+                                        <li>NZ made foam: Advanced support & comfort layers </li>
+                                        <li>Pocket springs: Minimal partner disturbance </li>
+                                    </ul>
+                                
+                                    Luxurious pillow top Super Natural mattress with natural latex, NZ wool, layers of NZ made foam for superior comfort, and individual pocket spring technology.
+                                </p>
+
+                                <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                            
+                        </div> <!--DIV Close Card Body-->
+                
+                    </div><!-- Lights 1-->
+
+                    <!-- Mattresses 2-->
+                    <div class="card col-3">
+                            <img class="card-img-top" src="images/SuperNaturalMattress-350px-350px.webp" alt="Card image cap">
+                            <div class="Row">
+                                <div class="column">
+                                    <img src="images/SuperNaturalMattress-350px-350px.webp" style="width: 50px; float: left;"  onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/SuperNaturalMattress-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/SuperNaturalMattress-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/SuperNaturalMattress-350px-350px.webp" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Super Natural Mattress Medium - From $2799.00</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>Soft knit breathable sleep surface </li>
+                                            <li>NZ Wool: Comfort and breathability </li>
+                                            <li>Natural Latex: Superior support & advanced temperature regulation </li>
+                                            <li>NZ made foam: Advanced support & comfort layers </li>
+                                            <li>Pocket springs: Minimal partner disturbance </li>
+                                    </ul>
+                                    
+                                    Preferred feel by 80% of our Super Natural customers. Designed to replicate the comfort level used in luxury hotels.Soft knit breathable fabric, with silconised polyester. 
+                                    </p>
+
+                                 <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                        
+                            </div><!-- Div ENF: Class Body-->
+                    </div><!--END Matresses 2-->
+
+                    <!--Matresses3-->
+                        <div class="card col-3">
+                            <img class="card-img-top" src="images/TraditionalFutonWebWarm-350px-350px.JPG" alt="Card image cap">
+                            <div class="Row">
+                                <div class="column">
+                                    <img src="images/TraditionalFutonWebWarm-350px-350px.JPG" style="width: 50px; float: left;"  onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/TraditionalFutonWebWarm-350px-350px.JPG" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/TraditionalFutonWebWarm-350px-350px.JPG" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                                <div class="column">
+                                    <img src="images/TraditionalFutonWebWarm-350px-350px.JPG" style="width: 50px; float: left;" onclick="imgchange()";>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                    <h5 class="card-title"> Traditional Cotton Futon- From $420.00</h5>
+                                    <p class="card-text">
+                                        <ul>
+                                            <li>Made in the traditional Japanese style</li>
+                                            <li>Minimalist and space saving</li>
+                                            <li>Handmade in New Zealand</li>
+                                            <li>Layers of carded natural cotton </li>
+                                            <li>firm mattress with stable support</li>
+                                        </ul>
+                                    A futon that will best suit those who likes firm mattresses. This futon is designed to be used on a flat surface, as you will feel the slats through it if you put it on a slat base. We recommend folding it into an S-shape in the morning, so it is flipped more or less every day. 
+                                    </p>
+
+                                    <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                            </div><!--Dive End: card body-->
+                                             
+                        </div><!--Matresses 3->
+
+                    <!- Matresses 4-->
+                    <div class="card col-3">
+                        <img class="card-img-top" src="images/cotton-wool-350px-350px.jpeg" alt="Card image cap">
+                        <div class="Row">
+                            <div class="column">
+                                <img src="images/cotton-wool-350px-350px.jpeg" style="width: 50px; float: left;"  onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/cotton-wool-350px-350px.jpeg" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/cotton-wool-350px-350px.jpeg" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                            <div class="column">
+                                <img src="images/cotton-wool-350px-350px.jpeg" style="width: 50px; float: left;" onclick="imgchange()";>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"> Cotton Wool Futon - </h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>Extra layers of wool for an even softer feel</li>
+                                    <li>The Cotton Wool Futon is perfect for your sofa bed</li>
+                                    <li>Soft and cosy</li>
+                                    <li>made out of layers of carded cotton and polywool</li>
+                                    <li>Firm mattress with stable support</li>
+                                </ul>
+                            
+                                The Cotton Wool Futon works great with our sofa and recliner bases. It also works great as a child's bed together with any of our bed bases, but we wouldn't recommend it for adults.We recommend folding it into an S-shape in the morning.
+                            </p>
+
+                            <button type="submit" class="btn btn-primary submitbutton"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                        </div><!--Div END: Matresses-->         
+
+                    </div><!--End Forrest Matresse-->
+        
+                </div><!-- END Card DECK: Matresses-->
+
+            </div><!--End Row : Matresses-->
+
+            <!-- Matreses Videos-->
+            <div class="row">
+
+                    <div class="col-1"></div>
+                   
+                    <div class="col-5">
+                        <iframe class="video-style" title="vimeo-player" src="https://player.vimeo.com/video/680618992?h=80b0056907" width="560" height="350" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class="col-1"></div>
+                    
+                    <div class="col-5">
+                        <iframe class="video-style" width="560" height="360 " src="https://www.youtube.com/embed/ym4PbNXlkrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+            </div>
+
+
+            <!--Back to Top Button -->
+            <div class="row; container-fluid" style="margin-right:0px;padding-right: 0px;">
+                
+                <div class="col-1"></div>
+                <div class="col-10; B2Top-Btn">
+                  <button onclick="TopFunction()" id="TBN">Back to Top</button> 
+                </div>
+                    
+            </div> <!--Back to Top Button ENDS-->
+
+            <!-- Footer --> 
+          <footer class="footer-style">
+            <div class="row">
+
+              <div class="col-4">
+                <p>Ph: 0800 First-Class-Interior</p>
+                <p>46 Designer Rd</p>
+                <p>West Auckalnd</p>
+                <p>info@First-Class-Interior.co.nz</p>
+              </div>
+              
+              <div class="col-4 footer-icons" style="text-align: center;">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook" title="Go to FaceBook Login"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" title="Go to Instagram Login"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank" title="Go to LinkedIn Login"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com/i/flow/login" target="_blank" title="Go to Twitter Login"><i class="fa-brands fa-square-twitter"></i></a>
+            
+                <p id="contactUs" class="footer-paragraph-style"><b>@First-Class-Interior</b></p>  
+                <p style="font-size: 18px;">Disclaimer: all products are subject to availability. Prices and Delivery times may vary for that advertised.</p>
+
+              </div>
+
+              <div class="col-4">
+                <ul style="list-style: none; text-align: right;">
+                    <!-- <button onclick="TopFunction()" id="TBN">top</button> -->
+                  <li><a href="index.html" title="Go to Home">Home</a></li>
+                  <li><a href="shop-Ci2.html" title="Go to Shop">Shop</a></li>
+                  <li><a href="#projects" title="Go to Projects">Projects</a></li>
+                  <li><a href="contact-us-Ci2.html" title="Go to Contact Us">Contact Us</a></li>
+                  <li><a href="about-us-Ci2.html" title="Go to About Us">About Us</a></li>
+
+                </ul>
+
+              </div>
+
+            </div>
+          </footer>
+ 
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+            <script>
+                function TopFunction(){
+                  document.documentElement.scrollTop = 0;
+                  document.body.scrollTop = 0;
+                }
+                  
+        
+        
+                  </script>
+    </body>
+
+</html>
